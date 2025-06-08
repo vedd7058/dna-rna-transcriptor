@@ -2,6 +2,25 @@
 import streamlit as st
 import re
 
+
+
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://media.giphy.com/media/l3vR9O9p8XbXvCq5y/giphy.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        opacity: 0.85;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 st.set_page_config(page_title="DNA to RNA Transcription Tool", layout="wide")
 
 st.markdown("""
