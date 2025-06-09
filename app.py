@@ -23,20 +23,7 @@ st.markdown(
 
 st.set_page_config(page_title="DNA to RNA Transcription Tool", layout="wide")
 
-st.markdown("""
-<style>
-[data-testid="stAppViewContainer"] {
-    background-image: url("https://media.giphy.com/media/Bek3yEZeZwx9VVt0sI/giphy.gif");
-    background-size: cover;
-    background-position: center;
-}
-.stApp {
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 2rem;
-    border-radius: 1rem;
-}
-</style>
-""", unsafe_allow_html=True)
+
 
 st.title("🧬 DNA → RNA Transcription Tool")
 
